@@ -3,9 +3,13 @@ import std.stdio;
 void main()
 {
 	
-	auto ex = new SocketExample();
-	ex.run();
-	auto str = "";
+	//auto ex = new SocketExample();
+	//ex.run();
+	import kerisy.db.database;
+	import kerisy.db.driver.mysql;
+	import kerisy.db.factory;
+	import std.uuid;
+	run("donglei");
 	writeln("END...");
 }
 

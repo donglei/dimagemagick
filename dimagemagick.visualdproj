@@ -55,7 +55,7 @@
   <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
   <imppath>&quot;source&quot;</imppath>
   <fileImppath />
-  <outdir>e:\dlang\dimagemagick\</outdir>
+  <outdir>e:\dlang\dimagemagick\build</outdir>
   <objdir>.dub/obj/debug/dimagemagick</objdir>
   <objname />
   <libname />
@@ -93,7 +93,7 @@
   <libpaths>./libs</libpaths>
   <deffile />
   <resfile />
-  <exefile>e:\dlang\dimagemagick\dimagemagick_d.exe</exefile>
+  <exefile>./build\dimagemagick_d.exe</exefile>
   <useStdLibPath>1</useStdLibPath>
   <cRuntime>1</cRuntime>
   <additionalOptions />
@@ -212,6 +212,18 @@
      <File path="source\dmagick\Montage.d" />
      <File path="source\dmagick\Options.d" />
      <File path="source\dmagick\Utils.d" />
+    </Folder>
+    <Folder name="kerisy">
+     <Folder name="db">
+      <Folder name="driver">
+       <File path="source\kerisy\db\driver\mysql.d" />
+       <File path="source\kerisy\db\driver\postgres.d" />
+       <File path="source\kerisy\db\driver\sqlite.d" />
+      </Folder>
+      <File path="source\kerisy\db\database.d" />
+      <File path="source\kerisy\db\factory.d" />
+      <File path="source\kerisy\db\querygenerator.d" />
+     </Folder>
     </Folder>
     <File path="source\app.d" />
    </Folder>
