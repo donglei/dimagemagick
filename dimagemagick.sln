@@ -1,0 +1,16 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{6B2A55C9-3FB7-467A-A636-E1A4EF613997}") = "dimagemagick", "dimagemagick.visualdproj", "{77CADC80-7360-42F5-840B-DE39F33B9797}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug|Win32 = debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77CADC80-7360-42F5-840B-DE39F33B9797}.debug|Win32.ActiveCfg = debug|Win32
+		{77CADC80-7360-42F5-840B-DE39F33B9797}.debug|Win32.Build.0 = debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
